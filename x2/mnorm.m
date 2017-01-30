@@ -1,4 +1,4 @@
-function [r] = spnrom(a,b)
+function [r] = mnrom(a,b)
 [ha, wa] = size(a);
 [hb, wb] = size(b);
 dh = floor(hb/ha);
