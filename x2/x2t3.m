@@ -42,7 +42,7 @@ hold on
 grid on
 title('Convergence plot for Neumann BC')
 loglog(hs, k.^3+ k.*hs.^2)
-xlabel('h + k')
+xlabel('h')
 legend('CN', 'k^3 + k*h^2')
 
 
